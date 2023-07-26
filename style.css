@@ -1,0 +1,96 @@
+
+/*size */
+h2{
+    font-size: 20px;
+}
+.container {
+    height: 30vh;
+    width: 50vw;
+    text-align: center;
+    border: 1px solid #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+.containerOne {
+    background-image: url("cheatsheet.jpeg");
+    
+}
+.containerTwo {
+    background-image: url("design.webp");
+    background-position: 75%;
+    
+
+}
+.containerThree {
+    background-image: url("utility.jpeg");
+   
+    
+}
+.containerFour {
+    background-image: url("FAQs.jpeg");
+}
+nav span {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+     margin: 10px;
+  }
+/*box */
+h1{
+    padding: 150px;
+    text-align: center;
+}
+.mainContainer{
+   display:flex;
+   justify-content: space-evenly;
+}
+nav {
+    display:flex;
+    justify-content: space-evenly;
+  }
+
+/*positions */
+h3{
+    border: 1px solid black;
+    padding: 100px;
+    text-align: center;
+}
+
+/* colors  and fonts*/
+
+body{
+     background-color:  #1F292B ;
+     margin: 0;
+}
+
+.containerOne {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+.containerTwo {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+.containerThree {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+.containerFour {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+nav a {
+    color: #CFB53B;
+  }
+
+  
+  
+  
+ 
+  
