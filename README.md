@@ -1,2 +1,2 @@
 # Developer-Resource-Hub
-Resource Project constains developer resources
+Resource Project contains developer resources
