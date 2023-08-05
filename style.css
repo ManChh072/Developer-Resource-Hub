@@ -3,7 +3,11 @@
 h2{
     font-size: 20px;
 }
-.container {
+img {
+    height: 30vh;
+    width: 20vw;
+}
+/*.container {
     height: 30vh;
     width: 50vw;
     text-align: center;
@@ -12,24 +16,24 @@ h2{
     background-repeat: no-repeat;
     background-position: center;
     margin: 5px;
-}
+}*/
 .containerOne {
-    background-image: url("cheatsheet.jpeg");
+    /*background-image: url("cheatsheet.jpeg");*/
     
 }
 .containerTwo {
-    background-image: url("design.webp");
+   /* background-image: url("design.webp"); */
     background-position: 75%;
     
 
 }
 .containerThree {
-    background-image: url("utility.jpeg");
+   /* background-image: url("utility.jpeg");*/
    
     
 }
 .containerFour {
-    background-image: url("FAQs.jpeg");
+    /*background-image: url("FAQs.jpeg");*/
 }
 nav span {
     font-size: 16px;
@@ -41,7 +45,10 @@ nav span {
 h1{
     padding: 150px;
     text-align: center;
+    background-image: url("https://live.staticflickr.com/2167/5740471915_cbf6a414fb_b.jpg");
+    background-position: center;
 }
+
 .mainContainer{
    display:flex;
    justify-content: space-evenly;
@@ -50,12 +57,15 @@ nav {
     display:flex;
     justify-content: space-evenly;
   }
-
-/*positions */
-h3{
+  h3{
     border: 1px solid black;
     padding: 100px;
-    text-align: center;
+  }
+/*positions */
+h3{
+    text-align: left;
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2xyL25hc2EwMDAwMS1pbWFnZS5qcGc.jpg");
+    background-position:center;
 }
 
 /* colors  and fonts*/
@@ -89,8 +99,15 @@ nav a {
     color: #CFB53B;
   }
 
+  h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
   
-  
-  
+ a {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;;
+ } 
  
   
