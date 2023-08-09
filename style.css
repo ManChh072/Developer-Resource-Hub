@@ -3,37 +3,19 @@
 h2{
     font-size: 20px;
 }
-img {
+img{
     height: 30vh;
     width: 20vw;
-}
-/*.container {
-    height: 30vh;
-    width: 50vw;
-    text-align: center;
-    border: 1px solid #000;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 5px;
-}*/
-.containerOne {
-    /*background-image: url("cheatsheet.jpeg");*/
-    
-}
-.containerTwo {
-   /* background-image: url("design.webp"); */
-    background-position: 75%;
-    
 
 }
-.containerThree {
-   /* background-image: url("utility.jpeg");*/
-   
-    
+img:hover {
+    height: 40vh;
 }
-.containerFour {
-    /*background-image: url("FAQs.jpeg");*/
+h4 {
+    position: relative;
+    top: 30%;
+    font-size: 95%;
+    
 }
 nav span {
     font-size: 16px;
@@ -67,6 +49,7 @@ h3{
     background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2xyL25hc2EwMDAwMS1pbWFnZS5qcGc.jpg");
     background-position:center;
 }
+
 
 /* colors  and fonts*/
 
