@@ -21,8 +21,9 @@ nav span.size {
     margin: 5px;
   }
 /*box */
-h1{
+.siteHead{
     padding: 200px;
+    margin: 10px 0 0 0;
     text-align: center;
     background-image: url("https://live.staticflickr.com/2167/5740471915_cbf6a414fb_b.jpg");
     background-position: center;
@@ -44,6 +45,7 @@ nav span.box {
     margin: 5px;
   }
 /*positions */
+
 nav {
     display:flex;
     justify-content: space-evenly;
@@ -80,17 +82,23 @@ h3.color {
  /*media queries*/
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .siteHead{
+        padding: 150px;
+        margin: 10px 0 0 0;
+        text-align: center;
+        background-image: url("https://live.staticflickr.com/2167/5740471915_cbf6a414fb_b.jpg");
+        background-position: center;
+    }
     h2.size{
     font-size: 70%;
 }
+footer.position{
+    text-align: center;
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2xyL25hc2EwMDAwMS1pbWFnZS5qcGc.jpg");
+    background-position:center;
+}
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    h2.size{
-        font-size: 95%;
-    }
-}
 
 
  
