@@ -1,8 +1,5 @@
 
 /*size */
-h2{
-    font-size: 20px;
-}
 img{
     height: 30vh;
     width: 20vw;
@@ -11,21 +8,21 @@ img{
 img:hover {
     height: 40vh;
 }
-h4 {
-    position: relative;
-    top: 30%;
+h2.size{
     font-size: 95%;
-    
 }
-nav span {
+h3.size{
+    font-size: 20px;
+  }
+nav span.size {
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
-     margin: 10px;
+    margin: 5px;
   }
 /*box */
 h1{
-    padding: 150px;
+    padding: 200px;
     text-align: center;
     background-image: url("https://live.staticflickr.com/2167/5740471915_cbf6a414fb_b.jpg");
     background-position: center;
@@ -34,62 +31,66 @@ h1{
 .mainContainer{
    display:flex;
    justify-content: space-evenly;
+   margin: 0;
+   margin-bottom: 5%;
 }
+
+footer.box{
+    border: 1px solid black;
+    padding: 200px;
+}
+nav span.box {
+    letter-spacing: 2px;
+    margin: 5px;
+  }
+/*positions */
 nav {
     display:flex;
     justify-content: space-evenly;
-  }
-  h3{
-    border: 1px solid black;
-    padding: 100px;
-  }
-/*positions */
-h3{
+}
+footer.position{
     text-align: left;
     background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2xyL25hc2EwMDAwMS1pbWFnZS5qcGc.jpg");
     background-position:center;
 }
+h2.position {
+    position: relative;
+    top: 30%;
+}
 
-
-/* colors  and fonts*/
+/* colors*/
 
 body{
-     background-color:  #1F292B ;
-     margin: 0;
+    background-color:  #1F292B ;
+    margin: 0;
 }
-
-.containerOne {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 900;
-}
-.containerTwo {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 900;
-}
-.containerThree {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 900;
-}
-.containerFour {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 900;
-}
-nav a {
-    color: #CFB53B;
-  }
-
-  h3 {
-    color: #FFFFFF;
-    font-size: 20px;
-  }
-  
- a {
+a {
     color: #FFFFFF;
     font-size: 20px;
     text-decoration: none;;
  } 
+nav a {
+    color: #CFB53B;
+  }
+
+h3.color {
+    color: #FFFFFF;
+  }
+  
+ /*media queries*/
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h2.size{
+    font-size: 70%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h2.size{
+        font-size: 95%;
+    }
+}
+
+
  
